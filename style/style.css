@@ -117,6 +117,14 @@ header{
 
 
 @media screen and (max-width: 576px){
+.navbar{
+    flex-direction: column;
+    gap: 2vw;
+}
 
+.brand{
+    text-align: center;
+
+}
     
 }
