@@ -46,7 +46,7 @@
 header{
     background-color: #FFF4E7;
     width: 100%;
-    min-height: 100vh;
+    min-height: 70vh;
     font-family: "Work Sans", serif;
 }
 
@@ -111,27 +111,6 @@ header{
     font-size: 0.75rem;
 }
 
-/* Responsiveness with Media Querry */
-
-
-@media screen and (max-width: 576px){
-.navbar{
-    flex-direction: column;
-    gap: 2vw;
-    max-width: 90%;
-}
-
-.brand{
-    text-align: center;
-
-}
-
-.banner{
-    max-width: 90%;
-}
-    
-}
-
 
 /* Working on page - 2 */
 
@@ -140,7 +119,7 @@ header{
 #page-2{
     width: 100%;
     margin: 0 auto;
-    min-height: 80vh;
+    min-height: 50vh;
     font-family: "Work Sans", serif;
 
 }
@@ -149,6 +128,7 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: 55px;
+    margin-bottom: 30px;
     gap: 3.4vw;
 
 }
@@ -189,4 +169,83 @@ header{
 .feature-description{
     font-size: 0.75rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness with Media Querry */
+
+/* little Device */
+
+
+@media screen and (max-width: 576px){
+    .navbar{
+        flex-direction: column;
+        gap: 2vw;
+        max-width: 90%;
+    }
+    
+    .brand{
+        text-align: center;
+    
+    }
+    
+    .banner{
+        max-width: 90%;
+    }
+
+    header{
+        min-height: 40vh;
+    }
+
+    .team{
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .team-img-container{
+        width: 90%;
+    }
+
+    .our-features{
+        width: 90%;
+    }
+
+
+    #page-2{
+        min-height: 40vh;
+    }
+        
+    }
+
+
+
+    /* Medium Device */
+
+    @media screen and (min-width:576px) and (max-width:992px) {
+        header{
+            min-height: 50vh;
+        }
+        #page-2{
+            min-height: 40vh;
+        }
+    }
 
