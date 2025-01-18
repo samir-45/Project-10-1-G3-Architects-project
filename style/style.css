@@ -308,6 +308,11 @@ header{
         grid-template-columns: repeat(2, 1fr);
         row-gap: 15px;
     }
+
+    .fact-card{
+        width: 170px;
+        height: 170px;
+    }
         
     }
 
