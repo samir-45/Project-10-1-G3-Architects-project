@@ -238,6 +238,62 @@ header{
 
 
 
+/* Working on page - 4 */
+
+
+#page-4{
+    min-height: 55vh;
+    width: 100%;
+    font-family: "Work Sans", serif;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+
+/* Sponsor related styles */
+
+.sponsor-info{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.our-sponsors{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+}
+
+.sponsor-companies img{
+    filter: grayscale(100%);
+
+    width: 60%;
+}
+
+.sponsor-title{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.sponsor-description{
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -310,8 +366,37 @@ header{
     }
 
     .fact-card{
-        width: 170px;
-        height: 170px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .fact-card img{
+        width: 37px;
+    }
+    
+    .fact-number{
+        font-size: 1.9rem;
+    }
+    .fact-name{
+        font-weight: 600;
+        font-size: 0.80rem;
+    }
+
+
+
+    .our-sponsors{
+        width: 90%;
+    }
+
+    .sponsor-info{
+        width: 100%;
+    }
+
+
+    .sponsor-companies{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+
     }
         
     }
@@ -328,8 +413,8 @@ header{
             min-height: 40vh;
         }
         .fact-card{
-            width: 160px;
-            height: 160px;
+            width: 170px;
+            height: 170px;
         }
         .fact-cards{
             margin-top: 20px;
