@@ -200,6 +200,7 @@ header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 40px;
+    place-items: center;
     /* margin: 0 auto; */
 }
 
@@ -242,10 +243,9 @@ header{
 
 
 #page-4{
-    min-height: 55vh;
+    min-height: 38vh;
     width: 100%;
     font-family: "Work Sans", serif;
-    margin-bottom: 20px;
     margin-top: 60px;
 }
 
@@ -285,6 +285,29 @@ header{
     font-size: 0.75rem;
 }
 
+
+/* Working on footer */
+
+footer{
+    width: 100%;
+    min-height: 20vh;
+    font-family: "Work Sans", serif;
+    margin-bottom: 20px;
+}
+
+.footer-section{
+    background-color: #FFF4E7;
+    height: 60px;
+    font-size: 0.85rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 10px;
+}
 
 
 
@@ -366,8 +389,8 @@ header{
     }
 
     .fact-card{
-        width: 160px;
-        height: 160px;
+        width: 150px;
+        height: 150px;
     }
 
     .fact-card img{
@@ -380,6 +403,10 @@ header{
     .fact-name{
         font-weight: 600;
         font-size: 0.80rem;
+    }
+
+    #page-3{
+        min-height: 48vh;
     }
 
 
@@ -397,6 +424,16 @@ header{
         grid-template-columns: repeat(2, 1fr);
         row-gap: 10px;
 
+    }
+
+
+    #page-4{
+        min-height: 30vh;
+    }
+
+
+    footer{
+        min-height: 10vh;
     }
         
     }
